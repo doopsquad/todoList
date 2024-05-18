@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Open Sans";
+    background-color: rgb(149, 206, 206);
+}
+
+.instruction {
+    margin: 8rem auto 0 auto;
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.form {
+    text-align: center;
+    padding: 2rem;
+}
+
+#task {
+    width: 50%;
+    height: 2rem;
+    color: white;
+}
+
+#task-submit {
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+}
+
+#task-submit:hover {
+    background-color: aliceblue;
+    color: gray;
+}
+
+#task-submit:active {
+    background-color: black;
+    color: white
+}
+
+.task-list {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 3rem;
+    width: 45%;
+    grid-auto-rows: 2rem;
+    grid-auto-flow: row;
+    align-items:center;
+}
+
+.class-items {
+    display: flex;
+    background-color: aquamarine;
+    color: black;
+    border: 0.1px solid black;
+    grid-column: 1 / -1;
+    flex-wrap: wrap;
+
+}
+
+.newTask {
+    border: 1px solid black;
+    background-color: white;
+    color: black
+    font-size: 1.5rem;
+}
+
+.done {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.del {
+     margin-left: 0.5rem;
+     background-color: black;
+     color: white;
+     padding: 0.5rem;
+     font-size: 1rem;
+}
+
